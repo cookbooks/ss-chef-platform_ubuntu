@@ -19,6 +19,6 @@
 case node[:platform]
 when "ubuntu"
   include_recipe "apt"
-  include_recipe "build_essential"
+  include_recipe "build-essential"
   include_recipe "iptables"
 end
